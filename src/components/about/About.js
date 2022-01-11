@@ -15,7 +15,7 @@ export default function About() {
                 <img className="my-photo" src={myPic} alt="islam-pic" />
                 <h3 className="name-title">Islam Fawzy</h3>
                 <p className="job-title">Full Stack Developer</p>
-                
+
                 <div className=" about-logo-container">
                     <a href="mailto:islam.fawzy@outlook.dk">
                         <img className="about-logo-email" src={email} alt="email-logo" />
@@ -34,28 +34,22 @@ export default function About() {
             <div className="about-container">
 
                 <p className="about-text">
-                    &M has opened its first store in metaverse.
-
-                    The brands opening online store in no big deal now.
-
-                    Same way brands & websites in metaverse won't be a big deal in next 5 - 10 years.
-
-                    It will change how marketing & digital marketing is done.
-
-                    The tracking, attribution, cost, budgeting all will be impacted once metaverse becomes mainstream.
-
+                    I'm a recent graduate from Hack Your Future, Copenhagen (HYF),
+                     a non profit coding school which helps students in acquiring the necessary skills to become web developers.
+                   
                 </p>
 
                 <p className="about-text">
-                    &M has opened its first store in metaverse.
+                I have extensive experience in customer service, which has taught me to be a people person.
+                    My passion for coding started when I was looking for a career change and started looking for some IT
+                     courses until I came across HYF and since then there has been no looking back .
+                      I have worked on different projects and I have experience working with Html, CSS, Javascript, NodeJs, ExpressJs, ReactJs and MySQL
 
-                    The brands opening online store in no big deal now.
+                    <br />
+                    <br />
 
-                    Same way brands & websites in metaverse won't be a big deal in next 5 - 10 years.
+                    My interests lie in solving problems related to large-scale distributed software systems.
 
-                    It will change how marketing & digital marketing is done.
-
-                    The tracking, attribution, cost, budgeting all will be impacted once metaverse becomes mainstream.
 
                 </p>
 

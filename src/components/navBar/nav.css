@@ -1,7 +1,7 @@
 .nav-container{
 display: flex ;
 justify-content: space-between;
-background-color: rgb(139, 131, 216);
+background-color: rgb(242, 246, 248);
 position: -webkit-sticky;
 position: sticky;
 top: 0;
@@ -25,11 +25,11 @@ float: left;
 }
 
 .nav-btn-container > div > a {
-    color: ghostwhite;
+    color: rgb(82, 82, 219);
     text-decoration: none;
     font-size: x-large;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.nav-container > div > a:hover{
-    background-color: rgb(134, 133, 132);
+.nav-btn-container > div > a:hover{
+    background-color: rgb(125, 173, 236);
 }
