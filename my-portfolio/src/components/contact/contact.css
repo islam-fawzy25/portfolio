@@ -1,0 +1,25 @@
+#contact{
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.contact-header>h3{
+    text-align: center;
+    font-size:xx-large;
+    width: 300px;
+}
+
+.contact-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right:10% ;
+    padding-left:10% ;
+}
+.contact-logo{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 50%;
+}
+

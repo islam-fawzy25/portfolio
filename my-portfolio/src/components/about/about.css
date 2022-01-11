@@ -1,0 +1,57 @@
+#about{
+    display: flex;  
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.name-title{
+    text-align: center;
+    font-size:xx-large;
+}
+
+.job-title{
+    text-align: center;
+    font-size:xx-large;
+    color: darkgrey;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    padding-right:10% ;
+    padding-left:10% ;
+}
+
+.about-text{
+    color: gray;
+    font-family: sans-serif;
+    
+    font-size: large;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.my-photo{
+    width: 300px;
+    height: 350px;
+    border-radius: 50%;
+    align-self: center;
+
+}
+
+.about-logo{
+    height: 30px;
+    margin: 10px;
+
+}
+.about-logo-email{
+    height: 35px;
+    margin: 10px;
+}
+
+.about-logo-container{
+    display: flex;
+    justify-content:center;
+}
+
