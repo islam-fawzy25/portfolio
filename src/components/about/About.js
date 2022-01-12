@@ -15,7 +15,7 @@ export default function About() {
                 <img className="my-photo" src={myPic} alt="islam-pic" />
                 <h3 className="name-title">Islam Fawzy</h3>
                 <p className="job-title">Full Stack Developer</p>
-                
+
                 <div className=" about-logo-container">
                     <a href="mailto:islam.fawzy@outlook.dk">
                         <img className="about-logo-email" src={email} alt="email-logo" />
@@ -34,30 +34,25 @@ export default function About() {
             <div className="about-container">
 
                 <p className="about-text">
-                    &M has opened its first store in metaverse.
-
-                    The brands opening online store in no big deal now.
-
-                    Same way brands & websites in metaverse won't be a big deal in next 5 - 10 years.
-
-                    It will change how marketing & digital marketing is done.
-
-                    The tracking, attribution, cost, budgeting all will be impacted once metaverse becomes mainstream.
+                    I'm an enthusiastic Web Developer who builds Web Apps from scratch with MERN stack,
+                    I got experience with C # and .NET from a crash course and Umbraco certificate.
 
                 </p>
-
+                <br />
+                <br />
                 <p className="about-text">
-                    &M has opened its first store in metaverse.
-
-                    The brands opening online store in no big deal now.
-
-                    Same way brands & websites in metaverse won't be a big deal in next 5 - 10 years.
-
-                    It will change how marketing & digital marketing is done.
-
-                    The tracking, attribution, cost, budgeting all will be impacted once metaverse becomes mainstream.
-
+                    My previous experience in sales and marketing made me a good team player in solving problems with good communication and
+                    creative sustainable solution for fulfilling goals.
+                    My journey for coding started in 2020 when I started with self-learning from online courses before
+                    I began at Hack Your Future school and since that, I can not stop learning more about edge technologies.
                 </p>
+                <br />
+                <br />
+                <p className="about-text">
+
+                    Excellence comes from passion and hard work.
+                </p>
+
 
 
             </div>

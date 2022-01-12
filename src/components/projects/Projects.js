@@ -21,16 +21,17 @@ export default function Projects() {
                     <img className="meal-pic" src={mealSharing} alt="meal.-sharing-pic" />
                     <div className="project-description-container">
                         <h2 > Meal sharing</h2>
-                        <div> a platform for sharing meals, where you can add, reserve, or review meals.
+                        <div> A platform for sharing meals.<br /> where you can add, reserve or review meals.
                         </div>
-                        <div>
-                            <span > MERN Stack </span>
-                            <span> MERN Stack </span>
-                            <span> MERN Stack </span>
-                            <span> MERN Stack </span>
-                            <span> MERN Stack </span>
-                            <span> MERN Stack </span>
-                            <span> MERN Stack </span>
+                        <div className="tech-container">
+                            <span> Javascript </span>
+                            <span> React </span>
+                            <span> NodeJS </span>
+                            <span> MYSQL </span>
+                            <span> Express</span>
+                            <span> Knex </span>
+                            <span> Bootstrap </span>
+
                         </div>
 
                         <div className="project-logo-container">
@@ -48,17 +49,18 @@ export default function Projects() {
                     <img className="simply-pic" src={simply} alt="meal.-sharing-pic" />
                     <div className="project-description-container">
                         <h2>Simply name it  </h2>
-                        <div> App helping you to make a ballot from your network to choose
-                            something. </div>
-                        <div>
-                            <span> MERN Stack </span>
-                            <span> MERN Stack </span>
-                            <span> MERN Stack </span>
-                            <span> MERN Stack </span>
-                            <span> MERN Stack </span>
-                            <span> MERN Stack </span>
-                            <span> MERN Stack </span>
-                            <span> MERN Stack </span>
+                        <div> App helps you to make a ballot from your network to choose your next decision.  </div>
+                        <div className="tech-container">
+                            <span> Javascript </span>
+                            <span> React </span>
+                            <span> NodeJS </span>
+                            <span> MYSQL </span>
+                            <span> Express</span>
+                            <span> Knex </span>
+                            <span> Swagger</span>
+                            <span> Storybook </span>
+
+
                         </div>
 
                         <div className="project-logo-container">
