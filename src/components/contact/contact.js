@@ -8,6 +8,7 @@ export default function Contact() {
 
     return (
         <div id="contact">
+         
             <div className="contact-header">
                 <h3>Contact</h3>
 

@@ -34,24 +34,25 @@ export default function About() {
             <div className="about-container">
 
                 <p className="about-text">
-                    I'm a recent graduate from Hack Your Future, Copenhagen (HYF),
-                     a non profit coding school which helps students in acquiring the necessary skills to become web developers.
-                   
-                </p>
+                    I'm an enthusiastic Web Developer who builds Web Apps from scratch with MERN stack,
+                    I got experience with C # and .NET from a crash course and Umbraco certificate.
 
+                </p>
+                <br />
+                <br />
                 <p className="about-text">
-                I have extensive experience in customer service, which has taught me to be a people person.
-                    My passion for coding started when I was looking for a career change and started looking for some IT
-                     courses until I came across HYF and since then there has been no looking back .
-                      I have worked on different projects and I have experience working with Html, CSS, Javascript, NodeJs, ExpressJs, ReactJs and MySQL
-
-                    <br />
-                    <br />
-
-                    My interests lie in solving problems related to large-scale distributed software systems.
-
-
+                    My previous experience in sales and marketing made me a good team player in solving problems with good communication and
+                    creative sustainable solution for fulfilling goals.
+                    My journey for coding started in 2020 when I started with self-learning from online courses before
+                    I began at Hack Your Future school and since that, I can not stop learning more about edge technologies.
                 </p>
+                <br />
+                <br />
+                <p className="about-text">
+
+                    Excellence comes from passion and hard work.
+                </p>
+
 
 
             </div>

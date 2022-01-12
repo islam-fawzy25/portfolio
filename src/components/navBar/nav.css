@@ -5,6 +5,7 @@ background-color: rgb(242, 246, 248);
 position: -webkit-sticky;
 position: sticky;
 top: 0;
+height: 70px;
 }
 
 .nav-btn-container{
@@ -27,8 +28,8 @@ float: left;
 .nav-btn-container > div > a {
     color: rgb(82, 82, 219);
     text-decoration: none;
-    font-size: x-large;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-family:'Lucida Sans';
 }
 .nav-btn-container > div > a:hover{
     background-color: rgb(125, 173, 236);
