@@ -2,6 +2,7 @@ import React from "react";
 import "./nav.css"
 import logo from "./logo.jpg"
 
+
 export default function NavBar() {
 
     return (

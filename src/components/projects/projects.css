@@ -22,7 +22,7 @@
     margin-top: 20px;
     margin-bottom: 50px;
     display: flex;
-    flex-direction: row-reverse;
+   flex-direction: row-reverse;
     justify-content: space-between;
 }
 
@@ -33,13 +33,10 @@
   margin-right: 50px;
 }
 
-.meal-pic{
+.project-pic{
     width: 40%;
 }
 
-.simply-pic{
-    width: 40%;
-}
 
 .project-logo{
     width: 30px;
@@ -62,4 +59,13 @@
   padding: 5px;
   border-radius: 10%;
   background-color:rgb(229, 234, 236);
+}
+
+@media screen and (max-width:  768px) {
+    .single-project-container{
+      
+        display: flex;
+   flex-direction: column;
+    }
+
 }

@@ -18,7 +18,7 @@ export default function Projects() {
             <div className="projects-container">
 
                 <div className="single-project-container">
-                    <img className="meal-pic" src={mealSharing} alt="meal.-sharing-pic" />
+                    <img className="project-pic" src={mealSharing} alt="meal.-sharing-pic" />
                     <div className="project-description-container">
                         <h2 > Meal sharing</h2>
                         <div> A platform for sharing meals.<br /> where you can add, reserve or review meals.
@@ -46,7 +46,7 @@ export default function Projects() {
                 </div>
 
                 <div className="single-project-container">
-                    <img className="simply-pic" src={simply} alt="meal.-sharing-pic" />
+                    <img className="project-pic" src={simply} alt="meal.-sharing-pic" />
                     <div className="project-description-container">
                         <h2>Simply name it  </h2>
                         <div> App helps you to make a ballot from your network to choose your next decision.  </div>
