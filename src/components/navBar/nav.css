@@ -1,5 +1,6 @@
 .nav-container{
 display: flex ;
+flex-wrap: wrap;
 justify-content: space-between;
 background-color: rgb(242, 246, 248);
 position: -webkit-sticky;
@@ -34,3 +35,20 @@ float: left;
 .nav-btn-container > div > a:hover{
     background-color: rgb(125, 173, 236);
 }
+
+
+@media screen and (max-width: 768px) {
+ 
+    .nav-container{
+      display: flex;
+      height: 170px;
+    }
+
+    .nav-btn-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-btn-container > div{
+        margin:2px;  
+    }
+    }
