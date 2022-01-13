@@ -12,7 +12,6 @@
 
 
 @media screen and (max-width:  768px) {
-
   #about{
       display: flex;  
       flex-wrap: wrap;
@@ -38,13 +37,6 @@
   display: flex;  
   flex-wrap: wrap;
   margin-top: 50px;
-}
-
-.nav-btn-container{
-  display: flex;
-  flex-direction:column;
-  justify-content: right;
-
 }
 }
 /* 

@@ -23,7 +23,7 @@
     border-radius: 50%;
 }
 
-@media screen and (max-width:  768px) {
+@media screen and (max-width: 820px) {
     .contact-container{
         display: flex;
       flex-direction: column;

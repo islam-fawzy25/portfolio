@@ -2,37 +2,22 @@
   display: flex;
   margin-top: 150px;
   margin-bottom: 150px;
-
 }
 
-.skills-header {
-
-
- }
-
  .skills-title {
-
    font-size: xx-large;
    text-align: center;
    width: 300px;
-
  }
 
-
 .skills-container{
-   
     padding-right:10% ;
     padding-left:10% ;
- 
 }
-
-
-
 
 .logo-container{
     display: flex;
     flex-wrap: wrap;
-  
 }
 
 .logo-container > div{
@@ -44,3 +29,18 @@
     font-size: large;
     margin: 10px;
 }
+
+
+@media screen and (max-width: 820px) {
+  .skills-container{
+ 
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.logo-container{
+   
+}
+
+  }
