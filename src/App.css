@@ -40,12 +40,7 @@
   margin-top: 50px;
 }
 
-.nav-btn-container{
-  display: flex;
-  flex-direction:column;
-  justify-content: right;
 
-}
 }
 /* 
 .App-logo {
