@@ -20,7 +20,7 @@ export default function Contact() {
                     >
                         <img className="contact-logo"
                             src={linkedIn}
-                            alt="skill logo" />
+                            alt="linkedin logo" />
                     </a>
                 </div>
 
@@ -30,7 +30,7 @@ export default function Contact() {
                     >
                         <img className="contact-logo"
                             src={github}
-                            alt="skill logo" />
+                            alt="github logo" />
                     </a>
                 </div>
                 <div>
@@ -38,7 +38,7 @@ export default function Contact() {
                     >
                         <img className="contact-logo"
                             src={email}
-                            alt="skill logo" />
+                            alt="email logo" />
                     </a>
                 </div>
             </div>

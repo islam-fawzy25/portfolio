@@ -5,7 +5,7 @@ export default function Footer(){
 
     return(
         <footer className="footer">
-            <div>	&#169; Islam Fawzy</div>
+            <div>	&#169; Copyright by Islam Fawzy</div>
         </footer>
     )
 }
