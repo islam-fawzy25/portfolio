@@ -1,15 +1,13 @@
 import React from "react";
 import "./skills.css"
-
+import ProgressBar from "./ProgressBar";
 export default function Skills() {
 
     return (
         <div id="skills">
             <div className="skills-header">
                 <h3 className="skills-title">Skills</h3>
-
             </div>
-
             <div className="skills-container">
                 <div className="logo-container">
                     <div >HTML5</div>
@@ -32,7 +30,9 @@ export default function Skills() {
                     <div >TypeScript</div>
                     <div >JQuery</div>
                     <div >Umbraco</div>
-
+                </div>
+                <div>
+                <ProgressBar/>
                 </div>
             </div>
         </div>
