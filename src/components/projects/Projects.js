@@ -6,17 +6,12 @@ import github from "../../logos/github5.png"
 import web from "../../logos/click.png"
 
 export default function Projects() {
-
-
-
     return (
         <div id="projects">
             <div className="project-header">
                 <h3 >Projects</h3>
             </div>
-
             <div className="projects-container">
-
                 <div className="single-project-container">
                     <img className="project-pic" src={mealSharing} alt="meal.-sharing-pic" />
                     <div className="project-description-container">
@@ -31,7 +26,6 @@ export default function Projects() {
                             <span> Express</span>
                             <span> Knex </span>
                             <span> Bootstrap </span>
-
                         </div>
 
                         <div className="project-logo-container">
