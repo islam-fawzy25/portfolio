@@ -31,10 +31,12 @@
   flex-direction: column;
   justify-content:space-between;
   margin-right: 50px;
+  height: 70%;
 }
 
 .project-pic{
     width: 40%;
+    height: 70%;
 }
 
 .project-logo{
@@ -46,6 +48,26 @@
     display: flex;
     justify-content:space-evenly;  
 }
+.project-logo-container >a{
+    display: flex;
+    border-radius: 10%;
+    background-color:rgb(241, 242, 243);
+    font-size: large;
+    font-weight: bolder;
+    color: rgba(19, 6, 92, 0.5);
+    margin: 2px;
+    padding: 5px;
+    text-decoration: none;
+    justify-content: space-around;
+}
+.project-logo-container >a :hover{
+    background-color: darksalmon;
+    }
+
+.project-logo-container > a > div{
+margin-right: 5px;
+}
+
 
 .tech-container{
     display: flex;
@@ -72,5 +94,7 @@
     }
     .project-pic{
         width: 80%;
+       
     }
+   
 }
