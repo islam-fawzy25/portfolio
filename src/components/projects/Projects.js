@@ -27,13 +27,14 @@ export default function Projects() {
                             <span> Knex </span>
                             <span> Bootstrap </span>
                         </div>
-
                         <div className="project-logo-container">
                             <a href="https://github.com/islam-fawzy25/meal-sharing" target="_blank" rel=" noreferrer">
                                 <img className="project-logo" src={github} alt="github-logo" />
+                                <div>Code</div>
                             </a>
                             <a href="https://hyf-meal-sharing-app.herokuapp.com/" target="_blank" rel=" noreferrer">
                                 <img className="project-logo" src={web} alt="click-logo" />
+                                <div>Website</div>
                             </a>
                         </div>
                     </div>
@@ -53,22 +54,20 @@ export default function Projects() {
                             <span> Knex </span>
                             <span> Swagger</span>
                             <span> Storybook </span>
-
-
                         </div>
-
                         <div className="project-logo-container">
                             <a href="https://github.com/HackYourFuture-CPH/simply-name.it" target="_blank" rel=" noreferrer">
                                 <img className="project-logo" src={github} alt="github-logo" />
+                                <div>Code</div>
                             </a>
                             <a href="https://staging-simply-name-it.herokuapp.com/" target="_blank" rel=" noreferrer">
                                 <img className="project-logo" src={web} alt="click-logo" />
+                                <div>Website</div>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }
