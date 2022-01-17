@@ -20,27 +20,18 @@
     flex-wrap: wrap;
 }
 
-.logo-container > div{
-    align-self: center;
-    height:fit-content;
-    padding: 5px;
-    border-radius: 10%;
-    background-color: rgb(229, 234, 236);
-    font-size: large;
-    margin: 10px;
-}
+.logo-container {
 
-.progress {
-  background-color: darkmagenta;
-  width: max-content;
 }
-
-.progress > svg {
-  position:absolute;
-
-  padding: 0;
-  margin: 0;
-}
+/* .single-logo-container>div {
+  align-self: center;
+  height:fit-content;
+  padding: 5px;
+  border-radius: 10%;
+  background-color: rgb(85, 190, 231);
+  font-size: large;
+  margin: 1px;
+} */
 
 @media screen and (max-width: 820px) {
   .skills-container{

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Teko:600');
+
+$Teko: 'Teko', sans-serif;
+$white: #FFFFFF;
+$japanese-indigo: #223843;
+$raisin-black: #232020;
+$giants-green: #84e267;
+
+.progress {
+  display: flex;
+  font-family: sans-serif;
+  flex-wrap: wrap;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  padding-bottom: 50px;
+}
+
+.circle-progress {
+ 
+  circle {
+    stroke-width: 10px;
+    transform: scale(0.9);
+    transform-origin: center;
+  }
+  
+  &__bar {
+    stroke: $giants-green;
+    transition: stroke-dashoffset .5s linear;  
+  }
+  
+  &__background {
+    stroke: $japanese-indigo;
+  }
+}
+
+.circle-progress__wrap>svg{
+  width: 100%;
+  height: 100%;
+}
+
+.children{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.children > img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.circle-progress {
+  display: flex;
+  justify-content: center;
+  position: relative; 
+}
+
+.children-text{
+  text-align: center;
+  font-weight: bold;
+  font-size: medium;
+}
