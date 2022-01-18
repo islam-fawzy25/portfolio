@@ -26,7 +26,7 @@ export default function Skills() {
             <div className="skills-header">
                 <h3 className="skills-title">Skills</h3>
             </div>
-                <div className="logo-container">
+                <div className="skills-container">
                     <CircleProgress src={html} value={90 / 100} text={"HTML5"} />
                     <CircleProgress src={css} value={90 / 100} text={"CSS3"} />
                     <CircleProgress src={bootstrap} value={80 / 100} text={"Bootstrap"} />
