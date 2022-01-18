@@ -13,13 +13,7 @@
 .skills-container{
     padding-right:10% ;
     padding-left:10% ;
-}
-
-.logo-container{
     display: flex;
     flex-wrap: wrap;
 }
 
-.logo-container {
-
-}
