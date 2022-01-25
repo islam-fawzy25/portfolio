@@ -2,6 +2,7 @@ import React from "react";
 import "./projects.css"
 import mealSharing from "../../images/meal-sharing.png"
 import simply from "../../images/simply-name-it.png"
+import weatherApp from "../../images/weatherApp.png"
 import github from "../../logos/github5.png"
 import web from "../../logos/click.png"
 
@@ -61,6 +62,29 @@ export default function Projects() {
                                 <div>Code</div>
                             </a>
                             <a href="https://staging-simply-name-it.herokuapp.com/" target="_blank" rel=" noreferrer">
+                                <img className="project-logo" src={web} alt="click-logo" />
+                                <div>Website</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="single-project-container">
+                    <img className="project-pic" src={weatherApp} alt="weather-app-pic" />
+                    <div className="project-description-container">
+                        <h2 > Weather App</h2>
+                        <div> A platform where you can check any city weather.</div>
+                        <div className="tech-container">
+                            <span> Javascript </span>
+                            <span> HTML5 </span>
+                            <span> CSS3 </span>
+                        </div>
+                        <div className="project-logo-container">
+                            <a href="https://github.com/islam-fawzy25/Weather-App" target="_blank" rel=" noreferrer">
+                                <img className="project-logo" src={github} alt="github-logo" />
+                                <div>Code</div>
+                            </a>
+                            <a href="https://islam-fawzy25.github.io/Weather-App/" target="_blank" rel=" noreferrer">
                                 <img className="project-logo" src={web} alt="click-logo" />
                                 <div>Website</div>
                             </a>
