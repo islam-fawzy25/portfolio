@@ -1,8 +1,8 @@
 {
-  "name": "my-portoflio",
+  "name": "portoflio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://islam-fawzy25.github.io/my-portfolio",
+  "homepage": "http://islam-fawzy25.github.io/portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
     "@testing-library/jest-dom": "^5.16.1",
