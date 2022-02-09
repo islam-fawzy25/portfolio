@@ -11,7 +11,7 @@
 }
 
 
-@media screen and (max-width:  768px) {
+@media screen and (max-width:  820px) {
   #about{
       display: flex;  
       flex-wrap: wrap;
@@ -19,24 +19,7 @@
       margin-bottom: 25px;
   }
 
-  #skills{
-    display: flex;  
-    flex-wrap: wrap;
-    margin-top: 50px;
-    margin-bottom: 25px;
-  }
 
-#projects{
-  display: flex;  
-  flex-wrap: wrap;
-  margin-top: 50px;
-  margin-bottom: 25px;
-}
-
-#contact{
-  display: flex;  
-  flex-wrap: wrap;
-}
 }
 /* 
 .App-logo {

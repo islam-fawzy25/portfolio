@@ -5,13 +5,10 @@ import github from "../../logos/git.png"
 import email from "../../logos/email.png"
 
 export default function Contact() {
-
-    return (
+   return (
         <div id="contact">
-         
             <div className="contact-header">
                 <h3>Contact</h3>
-
             </div>
             <div className="contact-container">
                 <div>
@@ -45,3 +42,25 @@ export default function Contact() {
         </div>
     )
 } 
+
+/*
+contact by email 
+<form action="https://formsubmit.co/your@email.com" method="POST">
+     <input type="text" name="name" required>
+     <input type="email" name="email" required>
+     <button type="submit">Send</button>
+</form> 
+
+ _autoresponse
+
+You can send an instant response to your users with a copy of the submission. Add a custom message to the email body.
+
+<input type="hidden" name="_autoresponse" value="your custom message">
+
+To activate this feature your form should request the user's email address.
+
+<input type="email" name="email" placeholder="Email Address">
+
+* autoresponse won't work with forms that are disabled reCAPTCHA and forms that are submitting through AJAX.
+
+*/
