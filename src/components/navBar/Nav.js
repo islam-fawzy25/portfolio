@@ -2,11 +2,8 @@ import React from "react";
 import "./nav.css"
 import logo from "./logo.jpg"
 
-
 export default function NavBar() {
-
     return (
-
         <div className="nav-container">
             <div>
                 <img src={logo} alt="my-name-logo" />
@@ -27,6 +24,5 @@ export default function NavBar() {
                 </div>
             </div>
         </div>
-
     )
 }
