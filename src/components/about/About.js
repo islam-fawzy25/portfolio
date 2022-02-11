@@ -8,7 +8,7 @@ import email from "../../logos/email11.png"
 export default function About() {
     return (
         <div id="about">
-            <div>
+            <div className="contact-container">
                 <img className="my-photo" src={myPic} alt="islam-pic" />
                 <h3 className="name-title">Islam Fawzy</h3>
                 <p className="job-title">Full Stack Developer</p>

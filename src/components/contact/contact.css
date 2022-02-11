@@ -1,18 +1,20 @@
 #contact{
     display: flex;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-bottom: 150px;
+}
+.contact-header{
+    width: 300px;
 }
 .contact-header>h3{
     text-align: center;
     font-size:xx-large;
-    width: 300px;
 }
 .contact-container{
     display: flex;
     flex-wrap: wrap;
-    padding-right:10% ;
-    padding-left:10% ;
+    padding-left: 5%;
+   
 }
 .contact-logo{
     width: 70px;
@@ -20,20 +22,17 @@
     margin: 10px;
     border-radius: 50%;
 }
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 380px) {
     #contact{
         display: flex;  
         flex-wrap: wrap;
-        margin-top: 150px;
+        justify-content: center;
+        margin-top: 100px;
         margin-bottom: 25px;
       }
     .contact-container{
         display: flex;
-    }
-    .contact-logo{
-        width: 40px;
-        height: 40px;
-        margin: 10px;
-        border-radius: 50%;
-    }
+        flex-direction: row-reverse;
+     }
+ 
 }

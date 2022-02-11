@@ -3,6 +3,11 @@
     margin-top: 100px;
     margin-bottom: 100px;
 }
+.contact-container{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
 .name-title{
     text-align: center;
     font-size:xx-large;
@@ -16,8 +21,7 @@
 .about-container{
     display: flex;
     flex-direction: column;
-    padding-right:10% ;
-    padding-left:10% ;
+    padding-left:5%;
     margin-top: 15px;
 }
 .about-container>p{
@@ -29,7 +33,7 @@
     margin-bottom: 1rem;
 }
 .my-photo{
-    width: 300px;
+    width: 250px;
     height: 350px;
     border-radius: 50%;
     align-self: center;
@@ -45,4 +49,14 @@
 .about-logo-container{
     display: flex;
     justify-content:center;
+}
+
+@media screen and (max-width:  820px) {
+#about{
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
 }

@@ -1,25 +1,18 @@
 *{
   margin: 0;
   padding: 0;
- 
 }
 
 .App {
   padding-left:10%;
   padding-right:10%;
-
 }
 
-
 @media screen and (max-width:  820px) {
-  #about{
-      display: flex;  
-      flex-wrap: wrap;
-      margin-top: 50px;
-      margin-bottom: 25px;
+  .App {
+    padding-left:5%;
+    padding-right:5%;
   }
-
-
 }
 /* 
 .App-logo {
