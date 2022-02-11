@@ -1,23 +1,38 @@
 #skills{
+  display: flex;
   margin-top: 150px;
   margin-bottom: 150px;
 }
  .skills-title {
    font-size: xx-large;
+   text-align: center;
+   width: 300px;
+
  }
+ .skills-container{
+  display: flex;
+  flex-wrap: wrap;
+
+}
 .skills-group{
   display: flex;
+  flex-wrap: wrap;
 }
 @media screen and (max-width: 820px) {
   #skills{
     display: flex;  
     flex-wrap: wrap;
+    justify-content: center;
     margin-top: 50px;
     margin-bottom: 25px;
   }
   .skills-group{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
   }
+  .skills-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
 }
