@@ -11,6 +11,8 @@
     "@tomik23/react-circular-progress-bar": "^1.1.1",
     "bootstrap": "^5.1.3",
     "emailjs-com": "^3.2.0",
+    "jquery": "^3.6.0",
+    "jquery-ui-dist": "^1.13.0",
     "node-sass": "^7.0.1",
     "react": "^17.0.2",
     "react-bootstrap": "^2.1.0",

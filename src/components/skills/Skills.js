@@ -18,33 +18,36 @@ import bootstrap from "../../logos/bootstrap.png"
 import sql from "../../logos/sql3.png"
 import js from "../../logos/js-file.png"
 
-
 export default function Skills() {
-
     return (
         <div id="skills">
             <div className="skills-header">
                 <h3 className="skills-title">Skills</h3>
             </div>
-                <div className="skills-container">
+            <div className="skills-container">
+                <div className="skills-group">
                     <CircleProgress src={html} value={90 / 100} text={"HTML5"} />
                     <CircleProgress src={css} value={90 / 100} text={"CSS3"} />
                     <CircleProgress src={bootstrap} value={80 / 100} text={"Bootstrap"} />
                     <CircleProgress src={js} value={90 / 100} text={"Javascript"} />
                     <CircleProgress src={react} value={90 / 100} text={"React"} />
-                    <CircleProgress src={nodejs} value={70 / 100} text={"Nodejs"} />
-                    <CircleProgress src={jquery} value={50 / 100} text={"Jquery"} />
-                    <CircleProgress src={typescript} value={50 / 100} text={"Typescript"} />
-                    <CircleProgress src={angular} value={50 / 100} text={"AngularJs"} />
-                    <CircleProgress src={git} value={90 / 100} text={"Git"} />
-                    <CircleProgress src={sql} value={80 / 100} text={"SQL"} />
                     <CircleProgress src={mysql} value={80 / 100} text={"MYSQL"} />
+                    <CircleProgress src={nodejs} value={70 / 100} text={"Nodejs"} />
+                </div>
+                <div className="skills-group">
                     <CircleProgress src={csharp} value={50 / 100} text={"C#"} />
                     <CircleProgress src={dotnet} value={50 / 100} text={".NET"} />
+                    <CircleProgress src={sql} value={80 / 100} text={"SQL"} />
+                    <CircleProgress src={angular} value={50 / 100} text={"AngularJs"} />
+                    <CircleProgress src={jquery} value={50 / 100} text={"Jquery"} />
+                    <CircleProgress src={typescript} value={50 / 100} text={"Typescript"} />
                     <CircleProgress src={blazor} value={30 / 100} text={"Blazor"} />
+                </div>
+                <div className="skills-group">
                     <CircleProgress src={umbraco} value={35 / 100} text={"Umbraco"} />
                 </div>
-                <div>
+            </div>
+            <div>
             </div>
         </div>
 
