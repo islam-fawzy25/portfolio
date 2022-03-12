@@ -7,7 +7,7 @@ export default function ProjectComponent({ src, alt, codeHref, websiteHref, tech
     return (
         <div className="single-project-container" >
             <div className="project-pic">
-            <img  src={src} alt={alt} />
+                <img src={src} alt={alt} />
             </div>
             <div className="project-description-container">
                 <h2> {projectName}  </h2>

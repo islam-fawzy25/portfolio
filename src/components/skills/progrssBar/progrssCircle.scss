@@ -17,18 +17,15 @@ $giants-green: #5c5ac4;
 }
 
 .circle-progress {
- 
   circle {
     stroke-width: 10px;
     transform: scale(0.9);
     transform-origin: center;
   }
-  
   &__bar {
     stroke: $giants-green;
     transition: stroke-dashoffset .5s linear;  
   }
-  
   &__background {
     stroke: $japanese-indigo;
   }

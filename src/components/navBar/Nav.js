@@ -8,7 +8,6 @@ export default function NavBar() {
             <div>
                 <img src={logo} alt="my-name-logo" />
             </div>
-
             <div className="nav-btn-container">
                 <div>
                     <a href="#about">About</a>
