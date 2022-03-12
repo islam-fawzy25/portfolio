@@ -5,6 +5,7 @@ import simply from "../../images/simply-name-it.png"
 import weatherApp from "../../images/weatherApp.png"
 import todo from "../../images/AngularTodoList.png"
 import ProjectComponent from "./SingleProject";
+import pokemon from "../../images/pokemon.png"
 
 export default function Projects() {
     return (
@@ -29,6 +30,17 @@ export default function Projects() {
                     websiteHref="https://hyf-meal-sharing-app.herokuapp.com/"
                     techStack={["HTML5", "CSS3", "JavaScript (ES6)", "NodeJs", "Express", "KnexJs", "MYSQL", "ReactJs", "React Bootstrap"]}
                 />
+                <ProjectComponent
+                    projectName="Pokemon"
+                    projectDescription="A platform helping users to find their favourites pokemon
+                    - Pagination.
+                    -Sort & Filter data.  "
+                    src={pokemon} alt="pokemon-pic"
+                    codeHref="https://github.com/islam-fawzy25/PokemonApp"
+                    websiteHref="https://pokemon-sample.herokuapp.com/"
+                    techStack={["HTML5", "CSS3", "JavaScript (ES6)","Typescript", "ReactJs", "React Bootstrap"]}
+                />
+
                 <ProjectComponent
                     projectName="Todo list"
                     projectDescription="Todo list App is a platform where you can add or remove your tasks   "
