@@ -22,7 +22,6 @@ export default function Projects() {
                     websiteHref="https://staging-simply-name-it.herokuapp.com/"
                     techStack={["HTML5", "CSS3", "JavaScript (ES6)", "NodeJs", "Express", "KnexJs", "MYSQL", "ReactJs", "Storybook", "Swagger"]}
                 />
-
                 <ProjectComponent
                     projectName="Meal sharing"
                     projectDescription="A platform for sharing meals. where you can add, reserve or review meals.  "
@@ -39,7 +38,7 @@ export default function Projects() {
                     src={pokemon} alt="pokemon-pic"
                     codeHref="https://github.com/islam-fawzy25/PokemonApp"
                     websiteHref="https://pokemon-sample.herokuapp.com/"
-                    techStack={["HTML5", "CSS3", "JavaScript (ES6)", "ReactJs", "React Bootstrap"]}
+                    techStack={["HTML5", "CSS3", "JavaScript (ES6)","Typescript", "ReactJs", "React Bootstrap"]}
                 />
 
                 <ProjectComponent

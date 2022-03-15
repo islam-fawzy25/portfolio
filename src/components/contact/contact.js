@@ -20,7 +20,6 @@ export default function Contact() {
                             alt="linkedin logo" />
                     </a>
                 </div>
-
                 <div>
                     <a href="https://github.com/islam-fawzy25"
                         target="_blank" rel="noreferrer"

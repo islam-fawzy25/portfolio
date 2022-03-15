@@ -1,7 +1,6 @@
 import React from "react";
 import "./skills.css"
 import CircleProgress from "./progrssBar/ProgressCircle";
-import git from "../../logos/git.png"
 import html from "../../logos/html-5.png"
 import css from "../../logos/css.png"
 import csharp from "../../logos/hashtag.png"
