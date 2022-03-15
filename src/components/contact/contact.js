@@ -38,6 +38,25 @@ export default function Contact() {
                     </a>
                 </div>
             </div>
+            <div className="form-container">
+                <form target="_blank" action="https://formsubmit.co/islam.fawzy@outlook.dk" method="POST">
+                    <div >
+                        <div >
+                            <div >
+                                <input type="text" name="name"  placeholder="Your Name" required/>
+                            </div>
+                            <div class="col">
+                                <input type="email" name="email"  placeholder="Your Email " required/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message"  name="message" rows="10" required></textarea>
+                    </div>
+                    <button type="submit" >Send</button>
+                </form>
+            </div>
         </div>
     )
 }
+
