@@ -1,3 +1,4 @@
+
 #contact{
     display: flex;
     margin-top: 150px;
@@ -13,14 +14,36 @@
 .contact-container{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     padding-left: 5%;
-   
 }
 .contact-logo{
     width: 70px;
     height: 70px;
     margin: 10px;
     border-radius: 50%;
+}
+.form-container{
+    width: 500px;
+    height: 100%;
+
+}
+.form-container input{
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.form-container textarea{
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.form-container button{
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 @media screen and (max-width: 380px) {
     #contact{
