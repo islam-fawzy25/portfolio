@@ -37,9 +37,9 @@ export default function Skills() {
                     <CircleProgress src={csharp} value={50 / 100} text={"C#"} />
                     <CircleProgress src={dotnet} value={50 / 100} text={".NET"} />
                     <CircleProgress src={sql} value={80 / 100} text={"SQL"} />
-                    <CircleProgress src={angular} value={50 / 100} text={"AngularJs"} />
+                    <CircleProgress src={angular} value={50 / 100} text={"Angular"} />
                     <CircleProgress src={jquery} value={50 / 100} text={"Jquery"} />
-                    <CircleProgress src={typescript} value={50 / 100} text={"Typescript"} />
+                    <CircleProgress src={typescript} value={70 / 100} text={"Typescript"} />
                     <CircleProgress src={blazor} value={30 / 100} text={"Blazor"} />
                 </div>
                 <div className="skills-group">
