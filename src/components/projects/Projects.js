@@ -6,6 +6,8 @@ import weatherApp from "../../images/weatherApp.png"
 import todo from "../../images/AngularTodoList.png"
 import ProjectComponent from "./SingleProject";
 import pokemon from "../../images/pokemon.png"
+import shareExpenses from "../../images/share-expenses.png"
+
 
 export default function Projects() {
     return (
@@ -55,6 +57,14 @@ export default function Projects() {
                     codeHref="https://github.com/islam-fawzy25/Weather-App"
                     websiteHref="https://islam-fawzy25.github.io/Weather-App/"
                     techStack={["HTML5", "CSS3", "JavaScript (ES6)"]}
+                />
+                 <ProjectComponent
+                    projectName="Share expenses"
+                    projectDescription="Is an app for helping people share their expenses when they enjoy time together. "
+                    src={shareExpenses} alt="shareExpenses-app-pic"
+                    codeHref="https://github.com/islam-fawzy25/share-expenses"
+                    websiteHref="https://share-expenses.herokuapp.com/"
+                    techStack={["HTML5", "CSS3", "JavaScript (ES6)", "React", "Typescript"]}
                 />
             </div>
         </div>
