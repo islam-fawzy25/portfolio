@@ -12,12 +12,13 @@
 .projects-container{
   display: flex;
   flex-wrap: wrap;
+  padding-left:5%;
 }
 
 .single-project-container{
   display: flex;
-  width: 400px; 
-  height: 450px;
+  width: 500px; 
+  height: 350px;
   margin: 5px;
 
 }

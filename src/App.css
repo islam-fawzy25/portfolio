@@ -4,14 +4,14 @@
 }
 
 .App {
-  padding-left:10%;
-  padding-right:10%;
+  padding-left:1%;
+  padding-right:1%;
 }
 
 @media screen and (max-width:  820px) {
   .App {
-    padding-left:5%;
-    padding-right:5%;
+    padding-left:1%;
+    padding-right:1%;
   }
 }
 /* 

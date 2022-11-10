@@ -24,6 +24,13 @@ export default function Skills() {
                 <h3 className="skills-title">Skills</h3>
             </div>
             <div className="skills-container">
+                <div className="skills-description">
+                    <p>
+                        I started my journey as a developer at HackYourFuture school where I was working on different projects
+                        based on the Javascript stack, followed by courses and master classes.
+                    </p>
+                </div>
+
                 <div className="skills-group">
                     <CircleProgress src={html} value={90 / 100} text={"HTML5"} />
                     <CircleProgress src={css} value={90 / 100} text={"CSS3"} />
@@ -45,9 +52,9 @@ export default function Skills() {
                 <div className="skills-group">
                     <CircleProgress src={umbraco} value={35 / 100} text={"Umbraco"} />
                 </div>
+
             </div>
-            <div>
-            </div>
+
         </div>
 
     )

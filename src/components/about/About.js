@@ -28,18 +28,13 @@ export default function About() {
             </div>
             <div className="about-container">
                 <p>
-                    I'm an enthusiastic Web Developer who builds Web Apps from scratch with MERN stack,
-                    I got experience with C # and .NET from a crash course and Umbraco certificate.
+                I am an extrovert web developer curious about simplicity in coding by following the " Single responsibility" pattern.
                 </p>
                 <p >
-                    My previous experience in sales and marketing made me a good team player in solving problems with good communication and
-                    creative sustainable solution for fulfilling goals.
-                    My journey for coding started in 2020 when I started with self-learning from online courses before
-                    I began at Hack Your Future school and since that, I can not stop learning more about cutting edge technologies.
+                After working for +15 years in sales, I have advanced my skills in building good relationships with all 
+                parties and excelled at communication, teamwork, prioritizing and time management.
                 </p>
-                <p >
-                    Excellence comes from passion and hard work.
-                </p>
+             
             </div>
         </div>
     )
