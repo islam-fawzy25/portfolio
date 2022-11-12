@@ -39,7 +39,7 @@ export default function Projects() {
                     -Sort & Filter data.  "
                     src={pokemon} alt="pokemon-pic"
                     codeHref="https://github.com/islam-fawzy25/PokemonApp"
-                    websiteHref="https://pokemon-sample.herokuapp.com/"
+                    websiteHref="https://pokemon-app-s.herokuapp.com/"
                     techStack={["HTML5", "CSS3", "JavaScript (ES6)","Typescript", "ReactJs", "React Bootstrap"]}
                 />
 
