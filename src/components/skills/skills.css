@@ -20,11 +20,13 @@
  .skills-container{
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   padding-left:5%;
 }
 .skills-group{
   display: flex;
   flex-wrap: wrap;
+align-items: center;
 }
 span{
   margin: 2px;
