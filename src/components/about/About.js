@@ -28,11 +28,9 @@ export default function About() {
             </div>
             <div className="about-container">
                 <p>
-                I am an extrovert web developer curious about simplicity in coding by following the " Single responsibility" pattern.
-                </p>
+                I am an extrovert web developer who thrives in teamwork with a flair for Frontend.                </p>
                 <p >
-                After working for +15 years in sales, I have advanced my skills in building good relationships with all 
-                parties and excelled at communication, teamwork, prioritizing and time management.
+                I am curious about simplifying complex apps into simple structured solutions.
                 </p>
              
             </div>
