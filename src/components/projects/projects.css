@@ -34,7 +34,7 @@
   padding-left: 5%;
   padding-right: 5%;
   opacity: 1;
-  background-color: rgba(119, 151, 238, 0.932);
+  background-color: #5c5ac4;
  }
  
 .project-description-container h2{
@@ -63,7 +63,7 @@ display: none;
 
 .project-sources-container{
     display: flex;
-    justify-content:space-evenly;  
+    justify-content:center;  
 }
 .project-sources-container >a{
     display: flex;

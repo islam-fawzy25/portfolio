@@ -28,7 +28,10 @@ export default function About() {
             </div>
             <div className="about-container">
                 <p>
-                I am an extrovert web developer who thrives in teamwork with a flair for Frontend.                </p>
+                Web developer with a mentality of  <b>" I can do it " </b>attitude. following the core goal of the best practice pattern
+                <b> " single responsibility"</b>, which is helping in making complex applications simple and easy in maintainability 
+                and scalability. I thrive in a teamwork environment, I like to share ideas and would like to have fun in pairing programming.
+                 whatever technology comes into my work JS, C# or a new one I challenge myself every day to be better so I am looking for new challenges.               </p>
                 <p >
                 I am curious about simplifying complex apps into simple structured solutions.
                 </p>

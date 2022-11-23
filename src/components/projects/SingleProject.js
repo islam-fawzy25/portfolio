@@ -22,11 +22,11 @@ export default function ProjectComponent({ src, alt, codeHref, websiteHref, tech
                 <div className="project-sources-container">
                     <a href={codeHref} target="_blank" rel=" noreferrer">
                         <img className="project-source" src={github} alt="github-logo" />
-                        <div>Code</div>
+                        <div></div>
                     </a>
                     <a href={websiteHref} target="_blank" rel=" noreferrer">
                         <img className="project-source" src={web} alt="click-logo" />
-                        <div>Website</div>
+                        <div></div>
                     </a>
                 </div>
             </div>
