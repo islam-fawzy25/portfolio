@@ -27,7 +27,7 @@ export default function Skills() {
                 <div className="skills-description">
                     <p>
                     I started my journey as a developer at HackYourFuture school where 
-                    I was working on different projects based on the Javascript stack, followed by courses and master classes.
+                    I was working on different projects based on  Javascript stack, followed by courses and master classes.
                     </p>
                 </div>
 
