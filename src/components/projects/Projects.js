@@ -36,8 +36,8 @@ export default function Projects() {
                     - Pagination.
                     -Sort & Filter data.  "
                     src={pokemon} alt="pokemon-pic"
-                    codeHref="https://github.com/islam-fawzy25/PokemonApp"
-                    websiteHref="https://pokemon-app-s.herokuapp.com/"
+                    codeHref="https://github.com/islam-fawzy25/pokemon"
+                    websiteHref="https://islam-fawzy25.github.io/pokemon/"
                     techStack={["HTML5", "CSS3", "JavaScript (ES6)", "Typescript", "ReactJs", "React Bootstrap"]}
                 />
                 <ProjectComponent
