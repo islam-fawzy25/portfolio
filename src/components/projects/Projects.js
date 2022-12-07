@@ -7,7 +7,7 @@ import todo from "../../images/AngularTodoList.png"
 import ProjectComponent from "./SingleProject";
 import pokemon from "../../images/pokemon.png"
 import shareExpenses from "../../images/share-expenses.png"
-
+import newsStories from "../../images/news-stories.png"
 
 export default function Projects() {
     return (
@@ -38,9 +38,24 @@ export default function Projects() {
                     src={pokemon} alt="pokemon-pic"
                     codeHref="https://github.com/islam-fawzy25/PokemonApp"
                     websiteHref="https://pokemon-app-s.herokuapp.com/"
-                    techStack={["HTML5", "CSS3", "JavaScript (ES6)","Typescript", "ReactJs", "React Bootstrap"]}
+                    techStack={["HTML5", "CSS3", "JavaScript (ES6)", "Typescript", "ReactJs", "React Bootstrap"]}
                 />
-
+                <ProjectComponent
+                    projectName="Share expenses"
+                    projectDescription="Is an app for helping people share their expenses when they enjoy time together. "
+                    src={shareExpenses} alt="shareExpenses-app-pic"
+                    codeHref="https://github.com/islam-fawzy25/share-expenses"
+                    websiteHref="https://islam-fawzy25.github.io/share-expenses/"
+                    techStack={["HTML5", "CSS3", "JavaScript (ES6)", "React", "Typescript"]}
+                />
+                     <ProjectComponent
+                    projectName="News stories"
+                    projectDescription="Single web page for reviewing random 10 top stories in responsive design.  "
+                    src={newsStories} alt="news stories-app-pic"
+                    codeHref="https://github.com/islam-fawzy25/news-stories"
+                    websiteHref="https://islam-fawzy25.github.io/news-stories/"
+                    techStack={["HTML5", "CSS/SASS", "JavaScript (ES6)", "React", "Typescript"]}
+                />
                 <ProjectComponent
                     projectName="Todo list"
                     projectDescription="Todo list App is a platform where you can add or remove your tasks   "
@@ -55,14 +70,6 @@ export default function Projects() {
                     codeHref="https://github.com/islam-fawzy25/Weather-App"
                     websiteHref="https://islam-fawzy25.github.io/Weather-App/"
                     techStack={["HTML5", "CSS3", "JavaScript (ES6)"]}
-                />
-                 <ProjectComponent
-                    projectName="Share expenses"
-                    projectDescription="Is an app for helping people share their expenses when they enjoy time together. "
-                    src={shareExpenses} alt="shareExpenses-app-pic"
-                    codeHref="https://github.com/islam-fawzy25/share-expenses"
-                    websiteHref="https://share-expenses.herokuapp.com/"
-                    techStack={["HTML5", "CSS3", "JavaScript (ES6)", "React", "Typescript"]}
                 />
             </div>
         </div>
