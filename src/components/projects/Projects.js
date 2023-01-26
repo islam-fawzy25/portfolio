@@ -1,5 +1,5 @@
 import React from "react";
-import "./projects.css"
+import "./projects.scss"
 import mealSharing from "../../images/meal-sharing.png"
 import simply from "../../images/simply-name-it.png"
 import weatherApp from "../../images/weatherApp.png"

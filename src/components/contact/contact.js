@@ -45,12 +45,12 @@ export default function Contact() {
                             <div >
                                 <input type="text" name="name"  placeholder="Your Name" required/>
                             </div>
-                            <div class="col">
+                            <div className="col">
                                 <input type="email" name="email"  placeholder="Your Email " required/>
                             </div>
                         </div>
                     </div>
-                    <div class="form-group">
+                    <div className="form-group">
                         <textarea placeholder="Your Message"  name="message" rows="10" required></textarea>
                     </div>
                     <button type="submit" >Send</button>

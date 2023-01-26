@@ -1,5 +1,5 @@
 import React from "react"
-import "./projects.css"
+import "./projects.scss"
 import github from "../../logos/github5.png"
 import web from "../../logos/click.png"
 
