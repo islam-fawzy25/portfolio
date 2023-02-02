@@ -8,6 +8,7 @@ import ProjectComponent from "./SingleProject";
 import pokemon from "../../images/pokemon.png"
 import shareExpenses from "../../images/share-expenses.png"
 import newsStories from "../../images/news-stories.png"
+import blog from "../../images/blog-app.png"
 
 export default function Projects() {
     return (
@@ -16,6 +17,13 @@ export default function Projects() {
                 <h3 >Projects</h3>
             </div>
             <div className="projects-container">
+            <ProjectComponent
+                    projectName="Blog App"
+                    projectDescription="Blog app is a web application where users find posts about many categories like food, art and sport. users can create accounts to create posts. users can edit or delete posts and their accounts.  "
+                    src={blog} alt="blog-pic"
+                    codeHref="https://github.com/islam-fawzy25/blog-app"
+                    techStack={["HTML5", "CSS3","SCSS", "JavaScript (ES6)", "NodeJs", "Express", "MYSQL", "ReactJs"]}
+                />
                 <ProjectComponent
                     projectName="Simply name it"
                     projectDescription="App helps you to make a ballot from your network to choose your next decision.  "
