@@ -10,6 +10,9 @@ export default function NavBar() {
             </div>
             <div className="nav-btn-container">
                 <div>
+                    <a href="#experince">Ex</a>
+                </div>
+                <div>
                     <a href="#about">About</a>
                 </div>
                 <div>
